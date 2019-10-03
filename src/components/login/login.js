@@ -12,7 +12,7 @@ class LoginApp extends React.Component {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
             if (!err) {
-                this.props.history.push('lists')
+                this.props.history.push('/lists')
             }
         });
     };
@@ -51,7 +51,8 @@ class LoginApp extends React.Component {
                                     <Button type="primary" htmlType="submit" className="login-form-button">
                                         Log in
                                     </Button>
-                                    <a href="/reg" className='login-form-reg'>register now!</a>
+                                    <a href="/reg" className='login-form-reg'>Create an account!</a>
+                                    <a href="/home" style={{float: "left"}}>Home</a>
                                 </Form.Item>
                             </Form>
                         </Card>
