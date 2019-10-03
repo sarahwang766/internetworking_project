@@ -1,10 +1,8 @@
 import React from 'react';
-import { Row, Col, Card, Form, Icon, Input, Button, Checkbox } from 'antd';
+import { Row, Col, Card, Form, Icon, Input, Button } from 'antd';
 
 class RegApp extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
 
     handleSubmit = e => {
         e.preventDefault();

@@ -1,11 +1,10 @@
 import React from 'react';
-import { Row, Col, Card, Form, Icon, Input, Button, Checkbox, Tabs, Select } from 'antd';
+import { Form } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 
 
 
-const { TabPane } = Tabs;
-const { Option } = Select;
+
 
 class HomePageApp extends React.Component {
     constructor(props) {
@@ -22,7 +21,7 @@ class HomePageApp extends React.Component {
     };
 
     render() {
-        const { getFieldDecorator } = this.props.form;
+      
 
 
         return (

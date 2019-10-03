@@ -1,12 +1,10 @@
 import React from 'react';
-import { Row, Col, Card, Form, Icon, Input, Button, Checkbox } from 'antd';
-import { withRouter,Link } from 'react-router-dom';
+import { Row, Col, Card, Form, Icon, Input, Button } from 'antd';
+import { withRouter} from 'react-router-dom';
 import './login.css'
 
 class LoginApp extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+  
 
     handleSubmit = e => {
         e.preventDefault();

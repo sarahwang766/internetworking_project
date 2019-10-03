@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, Form, Icon, Input, Button, Checkbox, Tabs, Select } from 'antd';
+import { Form, Tabs, Select } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 import CreateTask from './components/create-task.jsx';
 import TaskList from './../taskList/task-list.jsx';
@@ -8,7 +8,7 @@ import WorkerList from './components/work-list.jsx';
 
 
 const { TabPane } = Tabs;
-const { Option } = Select;
+
 
 class taskApp extends React.Component {
     constructor(props) {

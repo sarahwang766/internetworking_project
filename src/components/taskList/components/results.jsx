@@ -1,23 +1,11 @@
 import React from 'react';
 import {
-    Row,
-    Col,
-    Card,
+
     Form,
-    Table,
-    Divider,
-    Tag,
-    Tabs,
-    Icon,
-    Input,
-    Button,
-    Checkbox,
-    Select,
-    Radio
+    Table
+   
 } from 'antd';
 
-const { TextArea } = Input;
-const { TabPane } = Tabs;
 
 
 
@@ -67,9 +55,7 @@ const data = [{
 
 
 class ResultsApp extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+
 
 
     render() {

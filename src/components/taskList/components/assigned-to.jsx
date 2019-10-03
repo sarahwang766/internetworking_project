@@ -1,23 +1,12 @@
 import React from 'react';
 import {
-    Row,
-    Col,
-    Card,
+
     Form,
     Table,
-    Divider,
-    Tag,
-    Tabs,
-    Icon,
-    Input,
-    Button,
-    Checkbox,
-    Select,
-    Radio
+
 } from 'antd';
 
-const { TextArea } = Input;
-const { TabPane } = Tabs;
+
 
 const columns = [{
         title: 'Task ID',

@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Typography, Row, Col, Radio, Form, Button,Card } from 'antd';
+import {Radio, Form, Button,Card } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import { Row, Col, Card, Form, Tabs, Icon, Input, Button, Checkbox, Select, Radio } from 'antd';
+import {  Form, Tabs } from 'antd';
 import TaskStatus from './components/task-status.jsx'
 import AssignedTo from './components/assigned-to.jsx'
 import Results from './components/results.jsx'
 
-const { TextArea } = Input;
+
 const { TabPane } = Tabs;
 
 
