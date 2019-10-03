@@ -1,7 +1,9 @@
 import React from 'react';
 import { Row, Col, Card, Form, Icon, Input, Button, Checkbox, Tabs, Select } from 'antd';
-import { withRouter,Link } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import CreateTask from './components/create-task.jsx';
+import TaskList from './../taskList/task-list.jsx';
+import WorkerList from './components/work-list.jsx';
 
 
 
@@ -33,10 +35,10 @@ class taskApp extends React.Component {
                 </div>
                 <Tabs animated={true} style={{textAlign: 'center'}}>
                    <TabPane tab="Task List" key="1" style={{textAlign: 'left'}}>
-                     Content of Tab 1
+                    <TaskList />
                    </TabPane>
                    <TabPane tab="Worker List" key="2" style={{textAlign: 'left'}}>
-                     Content of Tab 2
+                    <WorkerList />
                    </TabPane>
                    <TabPane tab="Create Task" key="3" style={{textAlign: 'left'}}>
                      <CreateTask />
