@@ -55,25 +55,25 @@ const data = [{
         id: '1',
         subject: 'John Brown',
         creationDate: '2019-04-05',
-        status: 0,
+        status: 'open',
     },{
         key: '2',
         id: '2',
         subject: 'John Brown22',
         creationDate: '2019-04-06',
-        status: 0,
+        status: 'open',
     },{
         key: '3',
         id: '3',
         subject: 'John Brown333',
         creationDate: '2019-07-05',
-        status: 2,
+        status: 'open',
     },{
         key: '4',
         id: '4',
         subject: 'John Brown6666',
         creationDate: '2019-04-07',
-        status: 1,
+        status: 'open',
     },
 
 ];

@@ -42,22 +42,22 @@ const data = [{
         key: '1',
         id: '1',
         result: 'A',
-        percentage: 'A',
+        percentage: 'A [85%] B[5%]  C[15%]',
     }, {
         key: '2',
         id: '2',
         result: 'B',
-        percentage: 'B',
+        percentage: 'A [40%] B[60%]',
     }, {
         key: '3',
         id: '3',
         result: 'D',
-        percentage: 'D',
+        percentage: 'A [10%] B[20%] C[30%] D[40%]',
     }, {
         key: '4',
         id: '4',
         result: 'C',
-        percentage: 'C',
+        percentage: 'A[20%]  B[60%] C[20%]',
     },
 
 ];
