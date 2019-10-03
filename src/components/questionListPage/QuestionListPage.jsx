@@ -5,9 +5,9 @@ import './QuestionListPage.css'
 
 
 const data = [
-    'Q#[QuestionID10][Question Description abc]',
-    'Q#[QuestionID23][Question Description def]',
-    'Q#[QuestionID12][Question Description ghi]',
+    'Q#[QuestionID].[ Question Description ]',
+    'Q#[QuestionID].[ Question Description ]',
+    'Q#[QuestionID].[ Question Description ]',
 
 ];
 
@@ -41,7 +41,7 @@ class listPageApp extends React.Component {
 
                         <List.Item.Meta
                           title={item}
-                          description= {item}
+                          description= "Subject:[subjectName]&nbsp;&nbsp;&nbsp;&nbsp; CreationDate:[date]"
                         />
                       </Link>
                       </List.Item>
