@@ -45,7 +45,11 @@ const columns = [{
         title: 'Action',
         key: 'action',
         render: (text, record) => (
-            <a>close</a>
+            <span>
+        <a>Open</a>
+        <Divider type="vertical" />
+        <a>Close</a>
+      </span>
         ),
     },
 ];
@@ -61,7 +65,7 @@ const data = [{
         id: '2',
         subject: 'John Brown22',
         creationDate: '2019-04-06',
-        status: 'open',
+        status: 'closed',
     },{
         key: '3',
         id: '3',
@@ -73,7 +77,7 @@ const data = [{
         id: '4',
         subject: 'John Brown6666',
         creationDate: '2019-04-07',
-        status: 'open',
+        status: 'closed',
     },
 
 ];

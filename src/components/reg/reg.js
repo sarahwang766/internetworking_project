@@ -70,6 +70,7 @@ class RegApp extends React.Component {
                                         Sign up
                                     </Button>
                                     <a href="/" className='login-form-reg'>login</a>
+                                    <a href="/home" style={{float: "left"}}>Home</a>
                                 </Form.Item>
                             </Form>
                         </Card>

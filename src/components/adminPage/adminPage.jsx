@@ -30,8 +30,9 @@ class taskApp extends React.Component {
 
         return (
             <div style={{ width:'80%',margin:'3% auto 0' }}>
+                <h1>AdminPage</h1>
                 <div style={{overflow:'hidden',textAlign:'right'}}>
-                  <Link to='/login'>Sign out</Link>
+                  <Link to='/home'>Sign out</Link>
                 </div>
                 <Tabs animated={true} style={{textAlign: 'center'}}>
                    <TabPane tab="Task List" key="1" style={{textAlign: 'left'}}>

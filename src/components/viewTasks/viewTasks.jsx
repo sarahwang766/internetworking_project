@@ -28,7 +28,7 @@ class viewTaskApp extends React.Component {
                     <Link to='/lists'>Back to Task list</Link>
                   </span>
                   <span style={{'float':'right'}}>
-                    <Link to='/login'>Sign out</Link>
+                    <Link to='/home'>Sign out</Link>
                   </span>
                 </div>
 

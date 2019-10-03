@@ -25,7 +25,7 @@ class listPageApp extends React.Component {
             <div style={{ width:'80%',margin:'3% auto 0' }}>
 
                 <div style={{overflow:'hidden',textAlign:'right'}}>
-                  <Link to='/login'>Sign out</Link>
+                  <Link to='/home'>Sign out</Link>
                 </div>
                 <div>
                   <h1>LIST OF TASKS</h1>
