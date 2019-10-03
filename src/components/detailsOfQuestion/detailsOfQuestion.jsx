@@ -25,7 +25,7 @@ class viewTaskApp extends React.Component {
 
                 <div style={{overflow:'hidden',}}>
                   <span>
-                    <Link to='/lists'>Back to Task list</Link>
+                    <Link to='/questionList'>Back to Task list</Link>
                   </span>
                   <span style={{'float':'right'}}>
                     <Link to='/home'>Sign out</Link>

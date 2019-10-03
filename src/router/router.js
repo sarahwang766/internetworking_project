@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Login from '../components/login/login.js'
 import Reg from '../components/reg/reg.js'
 import AdminPage from '../components/adminPage/adminPage.jsx'
-import ListPage from '../components/listsPage/listPage.jsx'
-import ViewTask from '../components/viewTasks/viewTasks.jsx'
+import QuestionListPage from '../components/questionListPage/QuestionListPage.jsx'
+import DetailsOfQuestion from '../components/detailsOfQuestion/detailsOfQuestion'
 import Homepage from '../components/home/home.jsx'
 
 export default class AppRouter extends React.Component {
@@ -20,8 +20,8 @@ export default class AppRouter extends React.Component {
                     <Route path="/login" component={Login}></Route>
                     <Route path="/reg" component={Reg}></Route>
                     <Route path="/adminPage" component={AdminPage}></Route>
-                    <Route path="/lists" component={ListPage}></Route>
-                    <Route path="/listInfo" component={ViewTask}></Route>
+                    <Route path="/questionList" component={QuestionListPage}></Route>
+                    <Route path="/questionDetails" component={DetailsOfQuestion}></Route>
                     <Route path="/home" component={Homepage}></Route>
                 </Switch>
             </BrowserRouter>

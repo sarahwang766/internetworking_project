@@ -1,7 +1,7 @@
 import React from 'react';
-import { List, Typography } from 'antd';
+import { List } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
-import './listpage.css'
+import './QuestionListPage.css'
 
 
 const data = [
@@ -37,7 +37,7 @@ class listPageApp extends React.Component {
                     dataSource={data}
                     renderItem={item =>
                       <List.Item className="list-wap">
-                       <Link to="/listInfo"> 
+                       <Link to="/questionDetails"> 
 
                         <List.Item.Meta
                           title={item}

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Form, Tabs, Select } from 'antd';
+import { Form, Tabs } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 import CreateTask from './components/create-task.jsx';
-import TaskList from './../taskList/task-list.jsx';
+import TaskList from './components/taskList/task-list.jsx';
 import WorkerList from './components/work-list.jsx';
 
 
@@ -25,7 +25,7 @@ class taskApp extends React.Component {
     };
 
     render() {
-        const { getFieldDecorator } = this.props.form;
+        
 
 
         return (
