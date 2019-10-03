@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Typography, Row, Col, Radio, Form, Button } from 'antd';
+import { List, Typography, Row, Col, Radio, Form, Button,Card } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 
 
@@ -13,7 +13,11 @@ class viewTaskApp extends React.Component {
     }
 
     render() {
-
+      const radioStyle = {
+        display: 'block',
+        height: '30px',
+        lineHeight: '30px',
+      };
         const { getFieldDecorator } = this.props.form;
 
         return (
@@ -31,34 +35,43 @@ class viewTaskApp extends React.Component {
                 <div>
                   <h1>Question</h1>
                   <div>
-                  <Row>
-                     <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+                  
+                    <Card>
+                    <Card.Grid>
+                     
                        Question ID:
-                     </Col>
-                     <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+                     
+                     </Card.Grid>
+                     <Card.Grid>
+                    
                        Subject:
-                     </Col>
-                     <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
+                     
+                     </Card.Grid>
+                     <Card.Grid>
+                     
                        Creation Date:
-                     </Col>
-                   </Row>
+                     
+                     </Card.Grid>
+                     </Card>
+                   
                   </div>
 
                   <div>
-
-                  <Form  style={{textAlign:'center'}} >
+                    {data.map(item=>
+                 <Card  title={`Q. ${item}`}>
+                  <Form  >
                   {
                     data.map(item=>
 
-                      <Form.Item label={`Q. ${item}`}>
+                      <Form.Item >
                         {getFieldDecorator('sss', {})(
                         <Radio.Group >
-                           <Radio  value="2"> Two </Radio>
-                           <Radio  value="3"> Three </Radio>
-                           <Radio  value="4"> Four </Radio>
+                           <Radio style={radioStyle} value="A"> Answer A</Radio>
+                           <Radio style={radioStyle}value="B"> Answer B </Radio>
+                           <Radio style={radioStyle} value="C"> Answer C </Radio>
                          </Radio.Group>
 
-                        )}
+                        )} 
                       </Form.Item>
 
                       )
@@ -81,8 +94,10 @@ class viewTaskApp extends React.Component {
 
 
 
-
+                  </Card>
+                   )}
                   </div>
+                 
 
 
 
