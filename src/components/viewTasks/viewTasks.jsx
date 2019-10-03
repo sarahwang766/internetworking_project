@@ -4,11 +4,7 @@ import { withRouter, Link } from 'react-router-dom';
 
 
 const data = [
-    'Racing car sprays burning fuel into crowd.',
-    'Japanese princess to wed commoner.',
-    'Australian walks 100km after outback crash.',
-    'Man charged over missing wedding girl.',
-    'Los Angeles battles huge wildfires.',
+    '[Question Description]'
 ];
 
 class viewTaskApp extends React.Component {
@@ -37,24 +33,24 @@ class viewTaskApp extends React.Component {
                   <div>
                   <Row>
                      <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-                       Question
+                       Question ID:
                      </Col>
                      <Col xs={{ span: 11, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-                       Subject
+                       Subject:
                      </Col>
                      <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 2 }}>
-                       Creation Date
+                       Creation Date:
                      </Col>
                    </Row>
                   </div>
 
                   <div>
 
-                  <Form  >
+                  <Form  style={{textAlign:'center'}} >
                   {
                     data.map(item=>
 
-                      <Form.Item label={`Q: ${item}`}>
+                      <Form.Item label={`Q. ${item}`}>
                         {getFieldDecorator('sss', {})(
                         <Radio.Group >
                            <Radio  value="2"> Two </Radio>

@@ -5,11 +5,10 @@ import './listpage.css'
 
 
 const data = [
-    'Racing car sprays burning fuel into crowd.',
-    'Japanese princess to wed commoner.',
-    'Australian walks 100km after outback crash.',
-    'Man charged over missing wedding girl.',
-    'Los Angeles battles huge wildfires.',
+    'Q#[QuestionID10][Question Description abc]',
+    'Q#[QuestionID23][Question Description def]',
+    'Q#[QuestionID12][Question Description ghi]',
+
 ];
 
 class listPageApp extends React.Component {
@@ -38,7 +37,7 @@ class listPageApp extends React.Component {
                     dataSource={data}
                     renderItem={item =>
                       <List.Item className="list-wap">
-                      <Link to="/listInfo">
+                       <Link to="/listInfo"> 
 
                         <List.Item.Meta
                           title={item}
