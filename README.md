@@ -1,3 +1,6 @@
+## The Link to each page
+Please go to "router.js" to check the url of each page.
+##                     
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
