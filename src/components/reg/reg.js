@@ -67,7 +67,7 @@ class RegApp extends React.Component {
                                     <Button type="primary" htmlType="submit" className="login-form-button">
                                         Sign up
                                     </Button>
-                                    <a href="/" className='login-form-reg'>login</a>
+                                    <a href="/login" className='login-form-reg'>login</a>
                                     <a href="/home" style={{float: "left"}}>Home</a>
                                 </Form.Item>
                             </Form>
