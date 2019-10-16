@@ -1,14 +1,12 @@
 import React from 'react';
 import {
-
     Form,
-    Table,
-
-} from 'antd';
-
+    Table
+} from 'antd'; //import components from antd UI library
 
 
-const columns = [{
+
+const columns = [{         // the columns attributes of the "assigned-to" table
         title: 'Task ID',
         dataIndex: 'id',
         key: 'id',
@@ -27,7 +25,7 @@ const columns = [{
     },
 ];
 
-const data = [{
+const data = [{           // fill the data of the columns with mock data
         key: '1',
         id: '1',
         assigned: 'UserA, UserB, UserC',
@@ -49,7 +47,7 @@ const data = [{
 
 
 class AssignedToApp extends React.Component {
-    render() {
+    render() { //render UI components to generate a page
 
         return (
             <div>
