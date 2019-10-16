@@ -3,7 +3,7 @@ import { Form, Tabs } from 'antd';
 import { withRouter, Link } from 'react-router-dom';
 import CreateTask from './components/create-task.jsx';
 import TaskList from './components/taskList/task-list.jsx';
-import WorkerList from './components/work-list.jsx';
+import WorkerList from './components/worker-list.jsx';
 
 
 

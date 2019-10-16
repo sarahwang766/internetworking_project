@@ -30,19 +30,19 @@ const columns = [{
 const data = [{
         key: '1',
         id: '1',
-        assigned: 'John Brown',
+        assigned: 'UserA, UserB, UserC',
     },{
         key: '2',
         id: '2',
-        assigned: 'John Brown22',
+        assigned: 'UserB, UserD',
     },{
         key: '3',
         id: '3',
-        assigned: 'John Brown333',
+        assigned: 'UserE, UserF',
     },{
         key: '4',
         id: '4',
-        assigned: 'John Brown6666',
+        assigned: 'UserA, UserD, UserE',
     },
 
 ];
