@@ -10,7 +10,7 @@ class LoginApp extends React.Component {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
             if (!err) {
-                this.props.history.push('/lists')
+                this.props.history.push('/questionlist')
             }
         });
     };

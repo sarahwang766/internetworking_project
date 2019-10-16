@@ -12,6 +12,15 @@ class viewTaskApp extends React.Component {
         super(props);
     }
 
+    handleSubmit = e => {
+      e.preventDefault();
+      this.props.form.validateFields((err, values) => {
+          if (!err) {
+              this.props.history.push('/questionlist')
+          }
+      });
+  };
+
     render() {
       const radioStyle = {
         display: 'block',
@@ -59,7 +68,7 @@ class viewTaskApp extends React.Component {
                   <div>
                     {data.map(item=>
                  <Card  title={`Q. ${item}`}>
-                  <Form  >
+                  <Form onSubmit={this.handleSubmit} >
                   {
                     data.map(item=>
 
