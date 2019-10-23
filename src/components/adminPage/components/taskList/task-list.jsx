@@ -23,7 +23,7 @@ class TaskListApp extends React.Component {
                  <TabPane tab="Task Status" key="1" style={{textAlign: 'left'}}>
                      <TaskStatus />
                  </TabPane>
-                 <TabPane tab="Assigned to" key="2" style={{textAlign: 'left'}}>
+                 <TabPane tab="Allocation" key="2" style={{textAlign: 'left'}}>
                      <AssignedTo />
                  </TabPane>
                  <TabPane tab="Results" key="3" style={{textAlign: 'left'}}>
